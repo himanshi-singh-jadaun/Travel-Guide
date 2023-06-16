@@ -42,7 +42,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://trip-advisor-backend.onrender.com/api",
+  "proxy": "http://trip-advisor-backend.onrender.com/api",
   "devDependencies": {
     "json-loader": "^0.5.7",
     "transform-loader": "^0.2.4",
