@@ -23,7 +23,7 @@ export default function Register({setShowRegister}) {
         };
 
         try {
-            await axios.post("/users/register",newUser);
+            await axios.post("/api/users/register",newUser);
             // if any failure has occured before success 
             // then to remove that failure
             setFailure(false);

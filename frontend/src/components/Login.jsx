@@ -20,7 +20,7 @@ export default function Login({setShowLogin,myStorage,setCurrentUser}) {
         };
 
         try {
-            const res = await axios.post("/users/login",User);
+            const res = await axios.post("/api/users/login",User);
            
             myStorage.setItem("user",res.data.username);
             setCurrentUser(res.data.username);

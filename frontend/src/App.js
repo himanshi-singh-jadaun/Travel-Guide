@@ -27,7 +27,7 @@ function App() {
   useEffect(() => {
     const getPins = async () => {
       try {
-        const res = await axios.get("/pins");
+        const res = await axios.get("/api/pins");
         setPins(res.data);
       } catch (err) {
         console.log(err);
@@ -64,7 +64,7 @@ function App() {
      }
      // to sent to backend
      try {
-      const res = await axios.post("/pins",createPin);
+      const res = await axios.post("/api/pins",createPin);
       // pins storing all the pins in database
       setPins([...pins,res.data]);
       // to remove the popup after creation
