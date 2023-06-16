@@ -12,7 +12,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
-    "react-map-gl": "^7.0.16",
+    "react-map-gl": "^7.0.25",
     "react-scripts": "5.0.1",
     "timeago.js": "^4.0.2",
     "web-vitals": "^2.1.4"
@@ -41,5 +41,10 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:8800/api"
+  "proxy": "http://localhost:8800/api",
+  "devDependencies": {
+    "json-loader": "^0.5.7",
+    "transform-loader": "^0.2.4",
+    "webworkify-webpack": "^1.0.6"
+  }
 }
